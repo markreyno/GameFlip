@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipGame</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <p id="message"></p>
+    <div class="gameplay">
+        <h1>Game Flip</h1>
+        <p>Welcome to game flip, the objective is to match the cards in the least amount of time.</p>
+        <label for="grid-size">Select Difficulty: </label>
+        <select id="grid-size">
+            <option value="4">4 x 4</option>
+            <option value="5">5 x 5</option>
+            <option value="6">6 x 6</option>
+        </select>
+
+
+
+
+        <button id="start" onclick="startGame()">StarGame</button>
+    
+        <p>Moves: <span id="moves">0</span></p>
+        
+
+
+
+    </div>
+
+    <div class="gamecontainer">
+        
+    <div id="grid-container" class="grid"></div>
+
+    </div>
+
+
+</body>
+</html>
